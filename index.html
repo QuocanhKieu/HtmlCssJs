@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Tech&clothes Store by Group_4</title>
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/45aafb0278.js"
       crossorigin="anonymous"
@@ -12,7 +12,48 @@
   </head>
 
   <body>
-    <main>
+    <header>
+      <div class="header">
+        <div class="header-center__inner">
+          <div class="container">
+            <div class="header-logo"><img src="images/logo.png" alt="" /></div>
+            <div class="header-search">
+              <input
+                type="text"
+                class="header-search__form"
+                placeholder="Search our store."
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+              <div class="icon1">
+                <img src="images/icon.png" alt="" />
+                <img src="images/icon1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom__inner">
+            <div class="catalog-menu">
+              <img src="images/icon2.png" alt="" />
+            </div>
+            <div class="menu">BROWSE CATEGORIES</div>
+            <nav>
+              <ul class="main-menu__nav">
+                <li class="main-menu__nav-item"><a href="index.html">HOME</a></li>
+                <li class="main-menu__nav-item"><a href="contactPage.html">CONTACT US</a></li>
+                <li class="main-menu__nav-item"><a href="newsPage.html">NEWS</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="home">
       <div class="bannerContainer">
         <div class="bannerContent">
           <h1>UP TO 20% OFF<br />SPEAKER</h1>
@@ -53,7 +94,7 @@
 
           <div class="productsContainer">
             <div class="product">
-              <img src="./images/newProducs/Image-8_370x.webp" alt="" />
+              <img src="./images/newProducts/Image-8_370x.webp" alt="" />
               <div class="rating">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -65,7 +106,7 @@
               <div class="price">$150</div>
             </div>
             <div class="product">
-              <img src="./images/newProducs/Image-1_370x.webp" alt="" />
+              <img src="./images/newProducts/Image-1_370x.webp" alt="" />
               <div class="rating">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -77,7 +118,7 @@
               <div class="price">$150</div>
             </div>
             <div class="product">
-              <img src="./images/newProducs/Image-2_370x.webp" alt="" />
+              <img src="./images/newProducts/Image-2_370x.webp" alt="" />
               <div class="rating">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -89,12 +130,12 @@
               <div class="price">$150</div>
             </div>
             <div class="product">
-              <img src="./images/newProducs/Image-4_370x.webp" alt="" />
+              <img src="./images/newProducts/Image-4_370x.webp" alt="" />
               <div class="rating">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
                 <i class="fa-regular fa-star"></i>
               </div>
               <a href="#">Gason Watch 2021</a>
@@ -133,6 +174,12 @@
           <div class="imgContainer">
             <img src="images/earPhone-banner-1.avif" alt="" />
             <img src="images/phone-banner-2.webp" alt="" />
+          </div>
+        </section>
+        <section class="topProducts">
+          <div class="head">
+            <h1>TOP PRODUCTS</h1>
+            <div class="underline"><i class="fa-solid fa-cart-plus"></i></div>
           </div>
         </section>
         <section class="whatTheySey">
@@ -198,5 +245,7 @@
         </section>
       </section>
     </main>
+    <footer></footer>
+    <script src="./js/style.js"></script>
   </body>
 </html>
