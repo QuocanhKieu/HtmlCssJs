@@ -6,8 +6,8 @@ footer.appendChild(fContainer);
 
 //first column
 const firstCol = document.createElement("div");
-const ggPlayImg = `../images/google-play.webp`;
-const appleImg = `../images/app-store.webp`;
+const ggPlayImg = `images/google-play.webp`;
+const appleImg = `images/app-store.webp`;
 const firstColHtml = `
     <h2>CONTACT INFORMATION</h2>
     <p>Call Us 24/7 Free</p>
@@ -54,7 +54,7 @@ fContainer.appendChild(secondCol);
 const thirdCol = document.createElement("div");
 const content = `
     <h2>OUR LOCATION</h2>
-    <img src="../images/footer-map.avif">
+    <img src="images/footer-map.avif">
 `;
 thirdCol.innerHTML = content;
 fContainer.append(thirdCol);
@@ -72,7 +72,7 @@ const topProducts = {
     id: 1,
     name: "Bitsie Pumps",
     price: 84,
-    image: `../images/topProducts/Image-3_370x.webp`,
+    image: `images/topProducts/Image-3_370x.webp`,
     stars: {
       yellowStar: 0,
       whiteStar: 5,
@@ -90,7 +90,7 @@ const topProducts = {
     id: 2,
     name: "Valmere T-Shirt",
     price: 40,
-    image: `../images/topProducts/Image-27_370x.webp`,
+    image: `images/topProducts/Image-27_370x.webp`,
     stars: {
       yellowStar: 0,
       whiteStar: 5,
@@ -108,7 +108,7 @@ const topProducts = {
     id: 3,
     name: "V Pumps",
     price: 34.9,
-    image: `../images/topProducts/Image-29_370x.webp`,
+    image: `images/topProducts/Image-29_370x.webp`,
     stars: {
       yellowStar: 5,
       whiteStar: 0,
@@ -126,7 +126,7 @@ const topProducts = {
     id: 4,
     name: "Testani Skirt",
     price: 75,
-    image: `../images/topProducts/product-image-1_370x.webp`,
+    image: `images/topProducts/product-image-1_370x.webp`,
     stars: {
       yellowStar: 4,
       whiteStar: 1,
