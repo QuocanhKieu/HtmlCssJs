@@ -611,7 +611,7 @@ main#news #super-container {
   flex-wrap: wrap;
 }
 main#news h4 {
-  margin-top: 0.5rem
+  margin-top: 0.5rem;
 }
 main#news p {
   margin-top: 2rem;
@@ -621,9 +621,15 @@ main#news p {
 main#news img {
   margin-top: 30px;
   margin-bottom: 10px;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 main#news h1 {
   color: red;
 }
 /*------------News page End by Long---------- */
+
+/*a--active class*/
+a.active {
+  color: white;
+  background-color: rgb(51, 51, 51);
+}

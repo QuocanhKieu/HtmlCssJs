@@ -165,3 +165,4 @@ const renderTopPros = () => {
 window.onload = renderTopPros;
 
 document.querySelector("section.topProducts").append(topProContainer);
+//switching active class
